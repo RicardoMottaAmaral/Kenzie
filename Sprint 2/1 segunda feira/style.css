@@ -1,0 +1,40 @@
+head, body{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	
+}
+h1{
+	margin-right: 48px;
+	width: 371px;
+	margin-left: 409px;
+	margin-top: 32px;
+	border-radius: undefinedpx;
+
+}
+small{
+margin-right: 33px;
+margin-left: 16px;
+width: 293px;
+font-family: 'Poppins';
+font-style: normal;
+
+}
+
+
+.background-blue{
+	background-color: blue;
+	color:aliceblue;
+}
+.color-blue{
+color: blue;
+}
+.background-black{
+	background-color: black;
+	color: aliceblue;
+}

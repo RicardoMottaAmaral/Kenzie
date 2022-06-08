@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.menu{
+    background-color: #fff;
+    padding: 20px 0;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px; 
+    
+}
+.container{
+    max-width: 100%;
+    margin: 10px 100px 0 100px;
+}
+.promocao{
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    left: 1570px;
+    top: 30px;
+    background-color: blue;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+
+}
+.containerProdutos{
+    display: flex;
+    max-width: 100%;
+    margin: 10px 100px 100px 110px;
+}
+.card_produto{
+    padding: 50px;
+    max-width: 100%;
+    width: 800px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+    border: 2px solid #e2e2ec;
+    box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.card_produto_imagem > img{
+    border-radius: 50;
+    margin: 30px 0px;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.produdo_card_nome{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: left;
+}
+.produto_card_descricao{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.produto_card_descricao_text{
+    font-size: 13px;
+    line-height: 32px;
+    text-align: left;
+}
+.form{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}

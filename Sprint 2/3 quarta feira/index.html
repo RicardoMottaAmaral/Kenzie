@@ -4,47 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu website</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Kenzie TechShop</title>
+    <link rel="icon" href="./src/img/favicon.png">
 </head>
 <body>
-    <h1>Olá, Kenzie</h1>
-    <div class="container">
-
-        <div class="box box-red">Isso é uma caixa</div>
-        <div class="box box-blue">isso é uma caixa</div>
-        <div class="box box-red">isso é uma caixa</div>
-        <div class="box box-green">isso é uma caixa</div>
-
-    </div>
-
-    <h2 id="sessao-unica">Sessão unica</h2>
-    <h2 class="titulo">A descoberta</h2>
-
-
-    <p>
-
-        Seguimos nosso caminho por este mar de longo
-        Até a oitava da Páscoa
-        Topamos aves
-        E houvemos vista de terra
-        os selvagens
-        Mostraram-lhes uma galinha
-        Quase haviam medo dela
-        E não queriam por a mão
-        E depois a tomaram como espantados
-        primeiro chá
-        Depois de dançarem
-        Diogo Dias
-        Fez o salto real
-        as meninas da gare
-        Eram três ou quatro moças bem moças e bem gentis
-        Com cabelos mui pretos pelas espáduas
-        E suas vergonhas tão altas e tão saradinhas
-        Que de nós as muito bem olharmos
-        Não tínhamos nenhuma vergonha.</p>
+    <nav class="menu">
+        <ul class="container">
+            <li><a href=""></a><h1>TechShop</h1></li>
+            <li><a href=""></a>Televisão</li>
+            <li><a href=""></a>Celulares</li>
+            <li><a href=""></a>Eletrodomésticos</li>
+            <li><a href=""></a>Informatica</li>
+            <li class="promocao"><a href=""></a>Promoçôes</li>     
+        </ul>
+    </nav>
     
-    
+    <main class="containerProdutos">
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/tv.png" alt="Smart Tv 50 UHD 4K">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Smart TV 50" UHD 4K Kenzie 50AU7700, 
+                            Processador Crystal 4K, Tela...
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        R$ 2.000,00
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+                
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/notebook.png" alt="notebook kenzie">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Notebook Kenzie - i3501-M10P 15.6” HD 
+                            11ª Geração Intel Pentium Gold 4GB 128...
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        4.600,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/arcondicionado.png" alt="Ar Condicionado Kenzie">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Ar Condicionado Split Kenzie 12.000 BTUs 
+                            Springer Midea Frio - 220 Volts
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        2.000,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/geladeira.png" alt="Geladeira Kenzie">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Geladeira Kenzie BRM44HK Frost Free 
+                            Duplex com Compartimento Extrafrio e
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        2.568,40   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+    </main>
+    <main class="containerProdutos">
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/celular.png" alt="Celular Kenzie">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Smartphone Kenzie Brasil A03 Core Preto 
+                            32GB, Câmera Traseira 8 MP, Tela...
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        2.000,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/panela.png" alt="Fritadeira Elétrica">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Fritadeira Elétrica sem Óleo/Air Fryer  - 
+                            Family-IV AF-30I Preta 3,5L    
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        400,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/monito.png" alt="Smart TV LED 43 polegadas">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Smart TV LED 43” Full HD AOC Roku 
+                            43S5195/78 com Wi-fi, Controle...
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        1.870,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+            <section class="card_produto">
+                <header>
+                    <div class="card_produto_imagem">
+                        <img src="./src/img/cadeiragamer.png" alt="Cadeira Gamer Giratoria">
+                    </div>
+                    <div class="produdo_card_nome">
+                        <span>
+                            Cadeira Gamer Giratória Red System com 
+                            Apoio Cabeça Frisokar Preta
+                        </span>
+                    </div>
+                </header>
+                <main class="produto_card_descricao">
+                    <p class="produto_card_descricao_text">
+                        1.240,00   
+                    </p>
+                </main>
+                <p class="form"><a href=""></a>Adcionar ao carrinho</p>
+            </section>
+    </main>
+
 </body>
 </html>
